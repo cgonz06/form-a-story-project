@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img src="https://content.codecademy.com/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+      <h1>Complete the Form -<br> Complete the Story!</h1>
+      <hr>
+      <form action="story.html" method="get">
+      <input type="text" name="animal-1" id="animal-1" required>
+<br>
+<label for="animal-2"></label>
+<input type="text" name="animal-2" id="animal-2" required>
+<br>
+<label for="animal-3"></label>
+<input type="text" name="animal-3" id="animal-3" required>
+<br>
+<label for="adj-1"></label>
+<input type="text" name="adj-1" id="adj-1" required>
+<br>
+<label for="verb-1"></label>
+<input type="text" name="verb-1" id="verb-1">
+<br>
+<label for="num-1"></label>
+<input type="number" name="num-1" id="num-1" required>
+<br>
+<span>Yes or No</span>
+<input type="radio" name="answer" id="yes" value="yes" required>
+<label for="yes"></label>
+<input type="radio" name="answer" id="no" value="no">
+<label for="no"></label>
+<br>
+<label for="speed">  Relative speed (ends in -er): </label>
+<select name="speed" id="speed"></select required>
+  <br>
+  <label for="quote"></label>
+  <input type="text" name="quote" id="quote" required list="quote-choices">
+  <datalist id="quote-choices"> <option value=""></option> <option value=""></option></datalist>
+  <br>
+  <select name="" id=""> <option value="faster"></option></select>
+        </section>
+        <label for="message" Meaningful Message: ></label>
+        <textarea name="message" id="message" cols="40" rows="8" required></textarea>
+    
+  </body>
+</html>
